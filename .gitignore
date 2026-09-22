@@ -1,0 +1,25 @@
+# Local Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local raster inputs and generated datasets
+*.tif
+*.tiff
+paired_dataset/
+superseded_dataset_backup_20260919/
+boundary_training_run/
+paired_boundary_training_run/*
+!paired_boundary_training_run/best_checkpoint.pt
+
+# Keep large model files in Git LFS rather than normal Git objects.
+*.pt
+!paired_boundary_training_run/
+!paired_boundary_training_run/best_checkpoint.pt
+
+# Local UI/build output
+Demystifying-Networking-main/node_modules/
+Demystifying-Networking-main/dist/
+.streamlit/secrets.toml

@@ -1,0 +1,7 @@
+streamlit>=1.40
+torch
+segmentation-models-pytorch
+rasterio
+numpy
+opencv-python-headless
+shapely
